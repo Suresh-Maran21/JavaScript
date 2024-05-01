@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../CSS files/form1.css">
+        <title>
+            Login Form
+        </title>
+        <script src="../JS files/form1.js"></script>
+    </head>
+
+
+<body >
+    <div class="body">
+    <form>
+        <table border="3" align="center" cellpadding="7" class="table">
+            <td>
+                <fieldset>
+                    <h1 style="text-align: center;">Login Form</h1>
+                </fieldset>
+                <p> Name <input id="fname" type="text" name="USERNAME" placeholder="FirstName"> <input id="lname" type="text" name="USERNAME"
+                        placeholder="LastName"></p>
+                <p>
+                    Email <input id="email" type="text" name="email" placeholder="Email">
+                </p>
+                <p>
+                    Phone Number <input id="phone" type="text" name="phonenumber" placeholder="10-digit number">
+                </p>
+                <p>
+                    Password <input type="password" id="password" name="pasword" placeholder="pasword">
+                </p>
+                <p >
+                    GENDER <br>
+                    <input type="radio" id="gender" name="Gender_type" value="male" checked>male
+                    <input type="radio" id="gender" name="Gender_type" value="female">Female
+                    <input type="radio" id="gender" name="Gender_type" value="other">Not wish to disclose
+                </p>
+                <p>
+                    Address : <br>
+                    <textarea name="text" id="address" rows="5" cols="30"></textarea>
+                </p>
+                <!-- <p>
+                    <label for="dob">Date of Birth</label> <br>
+                    <input type="date"  name="dob" id="dob">
+                </p> -->
+                <!-- <p>
+                    <label for="time"> Time </label> <br>
+                    <input type="time" name="time" id="time">
+                </p>
+                <p>
+                    <label for="Language_know">Languages</label> <br>
+                    <input type="checkbox" name="Language_know" value="tamil" checked>Tamil <br>
+                    <input type="checkbox" name="Language_know" value="englisg">English <br>
+                    <input type="checkbox" name="Language_know" value="french">French <br>
+                </p>
+                <p>
+                    <label for="feild_intrest">Select Your field of Intrest</label> <br>
+                    <select>
+                        <option value="music">Music</option>
+                        <option value="cycling">Cycling</option>
+                        <option value="batmiton">Batmiton</option>
+                    </select>
+                </p> -->
+                <p>
+                    Upload your Photo <br>
+                    <input type="image" id="pic" name="photo">
+                </p>
+                <p>
+                    <input type="button" name="button" id="btn" value="Add" onclick="AddRow()">
+                </p>
+            </td>
+        </table>
+    </form>
+    <center>
+        <table border="4" id="show">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Password</th>
+                    <th>Gender</th>
+                    <th>Address</th>
+                    <th>DOB</th>
+                </tr>
+            </thead>
+        </table>
+    </center>
+    
+</div>
+</body>
+
+</html>

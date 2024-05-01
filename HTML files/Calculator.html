@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" href="../CSS files/calculator.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <input id="display" >
+            <div id="keys">
+                <button onclick="appendedToDisplay('1')">1</button>
+                <button onclick="appendedToDisplay('2')">2</button>
+                <button onclick="appendedToDisplay('3')">3</button>
+                <button onclick="appendedToDisplay('4')">4</button>
+                <button onclick="appendedToDisplay('5')">5</button>
+                <button onclick="appendedToDisplay('6')">6</button>
+                <button onclick="appendedToDisplay('7')">7</button>
+                <button onclick="appendedToDisplay('8')">8</button>
+                <button onclick="appendedToDisplay('9')">9</button>
+                <button onclick="appendedToDisplay('0')">0</button>
+                <button onclick="appendedToDisplay('.')">.</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="appendedToDisplay('+')" class="operator-btn">+</button>
+                <button onclick="appendedToDisplay('-')" class="operator-btn">-</button>
+                <button onclick="appendedToDisplay('*')" class="operator-btn">*</button>
+                <button onclick="appendedToDisplay('/')" class="operator-btn">/</button>
+                
+                <button onclick="clearDisplay()" class="operator-btn">C</button>
+
+            </div>
+        </div>
+        <script src="../JS files/calculator.js"></script>
+    </body>
+</html>
