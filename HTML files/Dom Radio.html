@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            DOM manipulation
+        </title>
+        <script type="text/javascript"> 
+            function buttonClick()
+            {
+                var ans=document.getElementById("rd1");
+                var ans1=document.getElementById("rd2");
+                if(ans.checked==true )
+                {
+                    alert("You are selected an : "+ans.value);
+                }
+                else if(ans1.checked==true){
+                    alert("You are selected an : "+ans1.value);
+                }
+                else{
+                    alert("No one selected");
+                }
+                
+            }
+        </script>
+    </head>
+    <body>
+        <input type="radio" id="rd1" name="grp1" value="simple snippets">Simple snippets</inputs> <br>
+        <input type="radio" id="rd2" name="grp1" value="CCS learning">CSS learning <br>
+        <button onclick="buttonClick()" id="btn">submit</button>
+
+    </body>
+</html>

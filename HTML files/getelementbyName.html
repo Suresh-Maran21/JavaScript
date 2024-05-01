@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            getElementByName
+        </title>
+        <script type="text/javascript">
+            function fn1(){
+                var para=document.getElementsByTagName("p");
+                para[0].style.fontSize=24;
+                para[1].style.color="red";
+                para[2].style.fontWeight="bold";
+            }
+        </script>
+    </head>
+    <body>
+        <p>This a Paragraph</p>
+        <p>This a Paragraph</p>
+        <p>This a Paragraph</p>
+        <button onclick="fn1()">click</button>
+    </body>
+</html>

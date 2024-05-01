@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            getElementByName
+        </title>
+        <script type="text/javascript">
+            function fn1(){
+                var para=document.getElementsByClassName("one");
+                for(var x=0;x<para.length;x++){
+                    para[x].style.color="red";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p class="one">This a Paragraph</p>
+        <p>This a Paragraph</p>
+        <p class="one">This a Paragraph</p>
+        <button onclick="fn1()">click</button>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            DOM manipulation
+        </title>
+        <script type="text/javascript"> 
+            function buttonClick()
+            {
+                var x=document.getElementById("fn1").value;
+                var y=document.getElementById("fn2").value;
+                if(x==y)
+                {
+                    alert("Name and Password Is Match");
+                }
+                else if(x!=y)
+                {
+                    alert("Not Match");
+                } 
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="fn1" placeholder="Enter the Text">
+        <input type="password" id="fn2" placeholder="Enter the password">
+        <button onclick="buttonClick()">Click</button>
+    </body>
+</html>
